@@ -1,0 +1,62 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/hasan/Desktop/RedisRabbitmqDotnetCoreWriter/RedisRabbitmqDotnetCoreWriter.csproj",
+    "projectName": "RedisRabbitmqDotnetCoreWriter",
+    "projectPath": "/Users/hasan/Desktop/RedisRabbitmqDotnetCoreWriter/RedisRabbitmqDotnetCoreWriter.csproj",
+    "outputPath": "/Users/hasan/Desktop/RedisRabbitmqDotnetCoreWriter/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.1"
+    ],
+    "frameworks": {
+      "netcoreapp2.1": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.1": {
+      "dependencies": {
+        "Microsoft.AspNetCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.1, )",
+          "autoReferenced": true
+        },
+        "Microsoft.AspNetCore.Razor.Design": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.2, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.0, )",
+          "autoReferenced": true
+        },
+        "RabbitMQ.Client": {
+          "target": "Package",
+          "version": "[5.1.0, )"
+        },
+        "StackExchange.Redis": {
+          "target": "Package",
+          "version": "[2.0.519, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

@@ -1,0 +1,20 @@
+﻿@model RedisRabbitmqDotnetCoreWriter.Models.Message
+@{
+    ViewData["Title"] = "Redis - RabbitMQ Writer";
+}
+
+<div class="row" style="margin-top: 32px">
+    <div class="col-md-6">
+        <form asp-action="Index">
+            <div class="form-group">
+                <label for="inputkey">Key</label>
+                <input asp-for="Key" type="key" class="form-control" id="key" aria-describedby="key" placeholder="Key">
+            </div>
+            <div class="form-group">
+                <label for="inputvalue">Value</label>
+                <input asp-for="Value" type="value" class="form-control" id="value" aria-describedby="value" placeholder="Value">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
